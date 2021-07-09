@@ -16,3 +16,4 @@ class LaundryManagement(models.Model):
         ('477z', '477z'),
         ('478z', '478z')
     ], string='Réfrence sur le convoyeur', store=True)
+    delivery_date = fields.Date(string='Date de livraison')
