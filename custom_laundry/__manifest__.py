@@ -9,10 +9,12 @@
     'author': 'BIZ4A',
     'company': 'BIZ4A Techno Solutions',
     'website': "https://www.biz-4-africa.com",
-    'depends': ['base', 'mail', 'sale', 'account', 'uom'],
+    'depends': ['base', 'laundry_management'],
     'data': [
+        'data/order_receipt_paper.xml',
         'views/laundry.xml',
         'data/data.xml',
+        'views/laundry_order_receipt.xml'
     ],
     'images': [],
     'license': 'AGPL-3',

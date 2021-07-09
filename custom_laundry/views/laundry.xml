@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-        <record id="laundry.view" model="ir.ui.view">
+        <record id="custom_laundry_order_form_view" model="ir.ui.view">
             <field name="name">laundry.form.order</field>
             <field name="model">laundry.order</field>
             <field name="inherit_id" ref="laundry_management.laundry_order_form_view"/>
@@ -11,9 +11,9 @@
                             attrs="{'invisible': [('invoice_status', '=', 'invoiced')]}"/>
                 </xpath>
 
-                <xpath expr='//field[@name="order_date"]' position='replace'>
-                    <field name="conv" />
-                    <field name="delivery_date" />
+                <xpath expr='//field[@name="order_date"]' position='after'>
+                    <field name="conv"/>
+                    <field name="delivery_date"/>
                 </xpath>
             </field>
         </record>
