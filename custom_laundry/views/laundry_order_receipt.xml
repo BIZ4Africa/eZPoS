@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+
+        <template id="laundry_order_receipt">
+            <t t-call="web.html_container">
+                <t t-foreach="docs" t-as="obj">
+                    <t t-call="web.basic_layout">
+                        <div class="page">
+                            <div class="col-xs-4" style="padding:0;">
+                                <style type="text/css">
+                                .tg  {border:none;border-collapse:collapse;border-spacing:0;}
+                                .tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;
+                                  padding:10px 5px;word-break:normal;}
+                                .tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+                                  overflow:hidden;padding:10px 5px;word-break:normal;}
+                                .tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+                                .tg .tg-wp8o{border-color:#FFFFF;text-align:center;vertical-align:top}
+                                .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+                                </style>
+                                <table class="tg" style="undefined;table-layout: fixed; width: 502px">
+                                <colgroup>
+                                <col style="width: 25%"/>
+                                <col style="width: 50%"/>
+                                <col style="width: 25%"/>                    </colgroup>
+                                <thead>
+                                  <tr>
+                                    <th class="tg-wp8o">QTE </th>
+                                    <th class="tg-wp8o">DESIGNATION</th>
+<!--                                        <th class="tg-wp8o">U.P</th>-->
+                                    <th class="tg-c3ow">T.P</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                    <t t-foreach="obj.order_lines" t-as="line">
+                                      <tr>
+                                          <td class="tg-0pky"><span t-esc="line.qty"/></td>
+                                        <td class="tg-0pky"><span t-esc="line.product_id.name"/></td>
+<!--                                            <td class="tg-0pky"></td>-->
+                                        <td class="tg-0pky"><span t-esc="line.amount"/></td>
+                                      </tr>
+                                    </t>
+                                </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </t>
+                </t>
+            </t>
+        </template>
+
+
+        <record id="laundry_order_receipt" model="ir.actions.report">
+            <field name="paperformat_id" ref="custom_laundry.order_receipt_paper_format"/>
+            <field name="name">Laundry Order Receipt</field>
+            <field name="model">laundry.order</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">custom_laundry.laundry_order_receipt</field>
+            <field name="report_file">custom_laundry.laundry_order_receipt</field>
+      </record>
+
+    </data>
+</odoo>
