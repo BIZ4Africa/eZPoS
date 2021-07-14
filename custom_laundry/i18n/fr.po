@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 14.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-13 14:17+0000\n"
-"PO-Revision-Date: 2021-07-13 16:56+0200\n"
+"PO-Revision-Date: 2021-07-14 10:49+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -197,7 +197,7 @@ msgstr "Acompte"
 #: code:addons/laundry_management/models/laundry.py:0
 #, python-format
 msgid "Down payment of %s%%"
-msgstr ""
+msgstr "Un acompte de %s%%."
 
 #. module: laundry_management
 #: model:ir.model.fields.selection,name:laundry_management.selection__laundry_order__state__draft
@@ -205,42 +205,42 @@ msgstr ""
 #: model:ir.model.fields.selection,name:laundry_management.selection__report_laundry_order__state__draft
 #: model:ir.model.fields.selection,name:laundry_management.selection__washing_washing__state__draft
 msgid "Draft"
-msgstr ""
+msgstr "Brouillon"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_laundry_order_line__product_id
 msgid "Dress"
-msgstr ""
+msgstr "Robe"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_laundry_order_line__extra_work
 msgid "Extra Work"
-msgstr ""
+msgstr "Travail supplémentaire"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_laundry_order__message_follower_ids
 msgid "Followers"
-msgstr ""
+msgstr "Suiveurs"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_laundry_order__message_channel_ids
 msgid "Followers (Channels)"
-msgstr ""
+msgstr "Suiveurs (Chaînes)"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_laundry_order__message_partner_ids
 msgid "Followers (Partners)"
-msgstr ""
+msgstr "Suiveurs (partenaires)"
 
 #. module: laundry_management
 #: model:ir.model.fields.selection,name:laundry_management.selection__report_laundry_order__invoice_status__invoiced
 msgid "Fully Invoiced"
-msgstr ""
+msgstr "Entièrement facturé"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_washing_washing__total_amount
 msgid "Grand Total"
-msgstr ""
+msgstr "Total général"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_laundry_order__id
@@ -252,54 +252,57 @@ msgstr ""
 #: model:ir.model.fields,field_description:laundry_management.field_washing_washing__id
 #: model:ir.model.fields,field_description:laundry_management.field_washing_work__id
 msgid "ID"
-msgstr ""
+msgstr "IDENTIFIANT"
 
 #. module: laundry_management
 #: model:ir.model.fields,help:laundry_management.field_laundry_order__message_needaction
 #: model:ir.model.fields,help:laundry_management.field_laundry_order__message_unread
 msgid "If checked, new messages require your attention."
 msgstr ""
+"Si cette case est cochée, de nouveaux messages requièrent votre attention."
 
 #. module: laundry_management
 #: model:ir.model.fields,help:laundry_management.field_laundry_order__message_has_error
 #: model:ir.model.fields,help:laundry_management.field_laundry_order__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 msgstr ""
+"Si cette case est cochée, certains messages présentent une erreur de "
+"livraison."
 
 #. module: laundry_management
 #: code:addons/laundry_management/models/laundry.py:0
 #: model_terms:ir.ui.view,arch_db:laundry_management.laundry_order_form_view
 #, python-format
 msgid "Invoice"
-msgstr ""
+msgstr "Facture"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_laundry_order__partner_invoice_id
 #: model:ir.model.fields,field_description:laundry_management.field_report_laundry_order__partner_invoice_id
 msgid "Invoice Address"
-msgstr ""
+msgstr "Adresse de la facture"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_laundry_order__invoice_status
 #: model:ir.model.fields,field_description:laundry_management.field_report_laundry_order__invoice_status
 msgid "Invoice Status"
-msgstr ""
+msgstr "Statut de la facture"
 
 #. module: laundry_management
 #: model:ir.model.fields,help:laundry_management.field_laundry_order__partner_invoice_id
 msgid "Invoice address for current sales order."
-msgstr ""
+msgstr "Adresse de facturation de la commande client en cours."
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_laundry_order__message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "Est un suiveur"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_laundry_order__name
 #: model:ir.model.fields,field_description:laundry_management.field_report_laundry_order__name
 msgid "Label"
-msgstr ""
+msgstr "Étiquette"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_laundry_order____last_update
@@ -321,7 +324,7 @@ msgstr "Dernière modification le"
 #: model:ir.model.fields,field_description:laundry_management.field_washing_washing__write_uid
 #: model:ir.model.fields,field_description:laundry_management.field_washing_work__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Dernière mise à jour par"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_laundry_order__write_date
@@ -331,25 +334,25 @@ msgstr ""
 #: model:ir.model.fields,field_description:laundry_management.field_washing_washing__write_date
 #: model:ir.model.fields,field_description:laundry_management.field_washing_work__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Dernière mise à jour le"
 
 #. module: laundry_management
 #: model:ir.module.category,name:laundry_management.module_laundry_category
 msgid "Laundry"
-msgstr ""
+msgstr "Laverie"
 
 #. module: laundry_management
 #: model:ir.actions.act_window,name:laundry_management.action_laundry_order
 #: model:ir.ui.menu,name:laundry_management.laundry_management_menu
 #: model:ir.ui.menu,name:laundry_management.laundry_management_sub_menu
 msgid "Laundry Management"
-msgstr ""
+msgstr "Gestion du linge"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_laundry_order_line__laundry_obj
 #: model:ir.model.fields,field_description:laundry_management.field_washing_washing__laundry_obj
 msgid "Laundry Obj"
-msgstr ""
+msgstr "Obj. linge"
 
 #. module: laundry_management
 #: model:ir.model,name:laundry_management.model_laundry_order
@@ -358,7 +361,7 @@ msgstr ""
 #: model:ir.ui.menu,name:laundry_management.laundry_management_order
 #: model_terms:ir.ui.view,arch_db:laundry_management.laundry_order_form_view
 msgid "Laundry Order"
-msgstr ""
+msgstr "Commande de linge"
 
 #. module: laundry_management
 #: model:ir.actions.act_window,name:laundry_management.action_laundry_order_analysis
@@ -366,196 +369,198 @@ msgstr ""
 #: model:ir.ui.menu,name:laundry_management.menu_laundry_order_analysis
 #: model_terms:ir.ui.view,arch_db:laundry_management.view_report_laundry_order
 msgid "Laundry Order Analysis"
-msgstr ""
+msgstr "Analyse de la commande de linge"
 
 #. module: laundry_management
 #: model:ir.actions.report,name:laundry_management.laundry_label
 msgid "Laundry Order Label"
-msgstr ""
+msgstr "Étiquette de commande de linge"
 
 #. module: laundry_management
 #: model_terms:ir.ui.view,arch_db:laundry_management.laundry_order_form_view
 msgid "Laundry Order Lines"
-msgstr ""
+msgstr "Lignes de commande de linge"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_laundry_order__laundry_person
 #: model:ir.model.fields,field_description:laundry_management.field_report_laundry_order__laundry_person
 msgid "Laundry Person"
-msgstr ""
+msgstr "Personne chargée de la blanchisserie"
 
 #. module: laundry_management
 #: model:product.product,name:laundry_management.laundry_service
 #: model:product.template,name:laundry_management.laundry_service_product_template
 msgid "Laundry Service"
-msgstr ""
+msgstr "Service de blanchisserie"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_washing_washing__laundry_works
 #: model:ir.ui.menu,name:laundry_management.laundry_washing
 msgid "Laundry Works"
-msgstr ""
+msgstr "Travaux de blanchisserie"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_laundry_order__message_main_attachment_id
 msgid "Main Attachment"
-msgstr ""
+msgstr "Attachement principal"
 
 #. module: laundry_management
 #: model:ir.model.fields.selection,name:laundry_management.selection__laundry_order_line__state__extra_work
 msgid "Make Over"
-msgstr ""
+msgstr "Remise en état"
 
 #. module: laundry_management
 #: model:res.groups,name:laundry_management.laundry_group_manager
 msgid "Manager"
-msgstr ""
+msgstr "Directeur"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_laundry_order__message_has_error
 msgid "Message Delivery error"
-msgstr ""
+msgstr "Erreur de livraison du message"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_laundry_order__message_ids
 msgid "Messages"
-msgstr ""
+msgstr "Messages"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_washing_type__name
 #: model:ir.model.fields,field_description:laundry_management.field_washing_work__name
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_laundry_order_line__qty
 msgid "No of items"
-msgstr ""
+msgstr "Nombre d'articles"
 
 #. module: laundry_management
 #: model:ir.model.fields.selection,name:laundry_management.selection__report_laundry_order__invoice_status__no
 msgid "Nothing to Invoice"
-msgstr ""
+msgstr "Rien à facturer"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_laundry_order__message_needaction_counter
 msgid "Number of Actions"
-msgstr ""
+msgstr "Nombre d'actions"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_laundry_order__message_has_error_counter
 msgid "Number of errors"
-msgstr ""
+msgstr "Nombre d'erreurs"
 
 #. module: laundry_management
 #: model:ir.model.fields,help:laundry_management.field_laundry_order__message_needaction_counter
 msgid "Number of messages which requires an action"
-msgstr ""
+msgstr "Nombre de messages qui nécessitent une action"
 
 #. module: laundry_management
 #: model:ir.model.fields,help:laundry_management.field_laundry_order__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr ""
+msgstr "Nombre de messages avec erreur de livraison"
 
 #. module: laundry_management
 #: model:ir.model.fields,help:laundry_management.field_laundry_order__message_unread_counter
 msgid "Number of unread messages"
-msgstr ""
+msgstr "Nombre de messages non lus"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_laundry_order__order_lines
 #: model_terms:ir.ui.view,arch_db:laundry_management.laundry_order_form_view
 msgid "Order Lines"
-msgstr ""
+msgstr "Lignes de commande"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_wash_order_line__wash_obj
 msgid "Order Reference"
-msgstr ""
+msgstr "Référence de la commande"
 
 #. module: laundry_management
 #: model:ir.model.fields,help:laundry_management.field_wash_order_line__price_unit
 msgid "Price at which the product is sold to customers."
-msgstr ""
+msgstr "Prix auquel le produit est vendu aux clients."
 
 #. module: laundry_management
 #: model:ir.model.fields.selection,name:laundry_management.selection__washing_washing__state__process
 msgid "Process"
-msgstr ""
+msgstr "Processus"
 
 #. module: laundry_management
 #: model:ir.model.fields.selection,name:laundry_management.selection__laundry_order__state__process
 #: model:ir.model.fields.selection,name:laundry_management.selection__report_laundry_order__state__process
 msgid "Processing"
-msgstr ""
+msgstr "Traitement"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_wash_order_line__product_id
 msgid "Product"
-msgstr ""
+msgstr "Produit"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_washing_washing__product_line
 #: model:ir.ui.menu,name:laundry_management.laundry_products
 msgid "Products"
-msgstr ""
+msgstr "Produits"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_wash_order_line__quantity
 msgid "Quantity"
-msgstr ""
+msgstr "Quantité"
 
 #. module: laundry_management
 #: model:ir.ui.menu,name:laundry_management.laundry_report_menu
 msgid "Report"
-msgstr ""
+msgstr "Rapport"
 
 #. module: laundry_management
 #: model_terms:ir.ui.view,arch_db:laundry_management.laundry_order_form_view
 msgid "Return"
-msgstr ""
+msgstr "Retourner à"
 
 #. module: laundry_management
 #: model:ir.model.fields.selection,name:laundry_management.selection__laundry_order__state__return
 #: model:ir.model.fields.selection,name:laundry_management.selection__report_laundry_order__state__return
 msgid "Returned"
-msgstr ""
+msgstr "Retourné"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_laundry_order__message_has_sms_error
 msgid "SMS Delivery error"
-msgstr ""
+msgstr "Erreur de livraison de SMS"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_laundry_order__sale_obj
 msgid "Sale Obj"
-msgstr ""
+msgstr "Vente Obj"
 
 #. module: laundry_management
 #: model:ir.model,name:laundry_management.model_sale_advance_payment_inv
 msgid "Sales Advance Payment Invoice"
-msgstr "Facture de paiement d'avance"
+msgstr "Facture de paiement anticipé des ventes"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_washing_type__amount
 #: model:ir.model.fields,field_description:laundry_management.field_washing_work__amount
 msgid "Service Charge"
-msgstr ""
+msgstr "Frais de service"
 
 #. module: laundry_management
 #: model_terms:ir.ui.view,arch_db:laundry_management.washing_form_view
 msgid "Set to Done"
-msgstr ""
+msgstr "Régler sur Terminé"
 
 #. module: laundry_management
 #: model_terms:ir.ui.view,arch_db:laundry_management.laundry_order_form_view
 msgid "Setup default terms and conditions in your company settings."
 msgstr ""
+"Configurez les conditions générales par défaut dans les paramètres de votre "
+"entreprise."
 
 #. module: laundry_management
 #: model_terms:ir.ui.view,arch_db:laundry_management.washing_form_view
 msgid "Start"
-msgstr ""
+msgstr "Début"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_laundry_order__state
@@ -563,17 +568,17 @@ msgstr ""
 #: model:ir.model.fields,field_description:laundry_management.field_report_laundry_order__state
 #: model:ir.model.fields,field_description:laundry_management.field_washing_washing__state
 msgid "Status"
-msgstr ""
+msgstr "Statut"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_wash_order_line__subtotal
 msgid "Subtotal"
-msgstr ""
+msgstr "Sous-total"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_laundry_order__note
 msgid "Terms and conditions"
-msgstr ""
+msgstr "Modalités et conditions"
 
 #. module: laundry_management
 #: code:addons/laundry_management/models/laundry.py:0
@@ -582,6 +587,8 @@ msgid ""
 "The product used to invoice a down payment should be of type 'Service'. "
 "Please use another product or update this product."
 msgstr ""
+"Le produit utilisé pour facturer un acompte doit être de type \"Service\". "
+"Veuillez utiliser un autre produit ou mettre à jour ce produit."
 
 #. module: laundry_management
 #: code:addons/laundry_management/models/laundry.py:0
@@ -591,123 +598,128 @@ msgid ""
 "set to \"Ordered quantities\". Please update your deposit product to be "
 "able to create a deposit invoice."
 msgstr ""
+"Le produit utilisé pour facturer un acompte doit avoir une politique de "
+"facturation définie sur \"Quantités commandées\". Veuillez mettre à jour "
+"votre produit d'acompte pour pouvoir créer une facture d'acompte."
 
 #. module: laundry_management
 #: code:addons/laundry_management/models/laundry.py:0
 #, python-format
 msgid "The value of the down payment amount must be positive."
-msgstr ""
+msgstr "La valeur du montant de l'acompte doit être positive."
 
 #. module: laundry_management
 #: model_terms:ir.actions.act_window,help:laundry_management.action_laundry_order_analysis
 msgid ""
 "This report allows you to analyse the performance of your Laundry Mangement."
 msgstr ""
+"Ce rapport vous permet d'analyser les performances de votre gestion du "
+"linge."
 
 #. module: laundry_management
 #: model:ir.model.fields.selection,name:laundry_management.selection__report_laundry_order__invoice_status__to_invoice
 msgid "To Invoice"
-msgstr ""
+msgstr "Vers la facture"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_laundry_order__total_amount
 #: model:ir.model.fields,field_description:laundry_management.field_report_laundry_order__total_amount
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_wash_order_line__price_unit
 msgid "Unit Price"
-msgstr ""
+msgstr "Prix unitaire"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_wash_order_line__uom_id
 msgid "Unit of Measure "
-msgstr ""
+msgstr "Unité de mesure "
 
 #. module: laundry_management
 #: model:product.product,uom_name:laundry_management.laundry_service
 #: model:product.template,uom_name:laundry_management.laundry_service_product_template
 msgid "Units"
-msgstr ""
+msgstr "Unités"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_laundry_order__message_unread
 msgid "Unread Messages"
-msgstr ""
+msgstr "Messages non lus"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_laundry_order__message_unread_counter
 msgid "Unread Messages Counter"
-msgstr ""
+msgstr "Compteur de messages non lus"
 
 #. module: laundry_management
 #: model:ir.model.fields.selection,name:laundry_management.selection__report_laundry_order__invoice_status__upselling
 msgid "Upselling Opportunity"
-msgstr ""
+msgstr "Possibilité de vente incitative"
 
 #. module: laundry_management
 #: model:res.groups,name:laundry_management.laundry_group_user
 msgid "User"
-msgstr ""
+msgstr "Utilisateur"
 
 #. module: laundry_management
 #: model:ir.actions.act_window,name:laundry_management.action_washing
 #: model:ir.model.fields.selection,name:laundry_management.selection__laundry_order_line__state__wash
 #: model_terms:ir.ui.view,arch_db:laundry_management.washing_form_view
 msgid "Washing"
-msgstr ""
+msgstr "Lavage"
 
 #. module: laundry_management
 #: model:ir.actions.act_window,name:laundry_management.action_washing_type
 #: model:ir.model.fields,field_description:laundry_management.field_laundry_order_line__washing_type
 #: model:ir.ui.menu,name:laundry_management.laundry_washing_type
 msgid "Washing Type"
-msgstr ""
+msgstr "Type de lavage"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_laundry_order__website_message_ids
 msgid "Website Messages"
-msgstr ""
+msgstr "Messages du site web"
 
 #. module: laundry_management
 #: model:ir.model.fields,help:laundry_management.field_laundry_order__website_message_ids
 msgid "Website communication history"
-msgstr ""
+msgstr "Historique de la communication sur le site web"
 
 #. module: laundry_management
 #: model:ir.model.fields,field_description:laundry_management.field_washing_washing__name
 msgid "Work"
-msgstr ""
+msgstr "Travail"
 
 #. module: laundry_management
 #: code:addons/laundry_management/models/laundry.py:0
 #: model_terms:ir.ui.view,arch_db:laundry_management.laundry_order_form_view
 #, python-format
 msgid "Works"
-msgstr ""
+msgstr "Travaux"
 
 #. module: laundry_management
 #: model:ir.model,name:laundry_management.model_laundry_order_line
 msgid "laundry.order.line"
-msgstr ""
+msgstr "ligne.de.commande.de.linge"
 
 #. module: laundry_management
 #: model:ir.model,name:laundry_management.model_wash_order_line
 msgid "wash.order.line"
-msgstr ""
+msgstr "ligne.de.commande.de.lavage"
 
 #. module: laundry_management
 #: model:ir.model,name:laundry_management.model_washing_type
 msgid "washing.type"
-msgstr ""
+msgstr "type.de.lavage"
 
 #. module: laundry_management
 #: model:ir.model,name:laundry_management.model_washing_washing
 msgid "washing.washing"
-msgstr ""
+msgstr "lavage.lavage"
 
 #. module: laundry_management
 #: model:ir.model,name:laundry_management.model_washing_work
 msgid "washing.work"
-msgstr ""
+msgstr "lavage.travail"
